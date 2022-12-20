@@ -29,6 +29,7 @@ img#headshot {
   border-radius: 999px;
   max-width: 450px;
   width: 65%;
+  border: 2px solid rgb(129, 129, 129);
 }
 
 a.social-link {
