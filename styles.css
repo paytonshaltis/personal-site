@@ -6,7 +6,6 @@
 
 body {
   min-height: 100vh;
-  background-image: url("./resources/background/bg-2-original.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)),
     url("./resources/background/bg-2-original.jpg");
   background-size: cover;
@@ -24,7 +23,7 @@ body {
 
 img#headshot {
   border-radius: 999px;
-  max-width: 400px;
+  max-width: 450px;
   width: 65%;
 }
 
