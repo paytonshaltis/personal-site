@@ -50,6 +50,12 @@ a.social-link svg {
   background-color: rgba(138, 138, 138, 0.7);
 }
 
+#new-background {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
 @media (hover: hover) {
   a.social-link svg:hover {
     transform: scale(1.075);

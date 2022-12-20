@@ -1,5 +1,7 @@
 const NUM_BG_IMAGES = 3;
 const BODY = document.querySelector("body");
+const NEW_BG_BUTTON = document.querySelector("#new-background button");
+const REFRESH_ICON = document.querySelector("#new-background button img");
 let currentBgImage = 0;
 
 // Disable tooltips on touch devices.
@@ -25,5 +27,16 @@ const newBackground = () => {
   BODY.style.backgroundRepeat = "no-repeat";
   currentBgImage = imageNumber;
 };
+
+// Event listener for the "New Background" button.
+NEW_BG_BUTTON.addEventListener("click", () => {
+  REFRESH_ICON.style.transition = "transform 350ms ease-in-out";
+  REFRESH_ICON.style.transform = "rotate(360deg)";
+  REFRESH_ICON.ontransitionend = () => {
+    REFRESH_ICON.style.transform = "";
+    REFRESH_ICON.style.transition = "";
+  };
+  newBackground();
+});
 
 newBackground();
