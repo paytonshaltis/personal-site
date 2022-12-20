@@ -3,3 +3,46 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  min-height: 100vh;
+  background-image: url("./resources/background/bg-2-original.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)),
+    url("./resources/background/bg-2-original.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img#headshot {
+  border-radius: 999px;
+  max-width: 400px;
+  width: 65%;
+}
+
+a.social-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 10%;
+  max-width: 50px;
+  margin: 0 5px;
+}
+
+a.social-link svg {
+  width: 100%;
+  height: auto;
+  transition: transform 150ms ease, fill 500ms ease;
+}
+
+a.social-link svg:hover {
+  transform: scale(1.075);
+  fill: rgb(185, 185, 185);
+}
