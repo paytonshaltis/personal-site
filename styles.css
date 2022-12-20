@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)),
