@@ -45,12 +45,14 @@ a.social-link svg {
   transition: transform 150ms ease, fill 500ms ease;
 }
 
-a.social-link svg:hover {
-  transform: scale(1.075);
-  fill: rgb(185, 185, 185);
-}
-
 #footer {
   width: fit-content;
   background-color: rgba(138, 138, 138, 0.7);
+}
+
+@media (hover: hover) {
+  a.social-link svg:hover {
+    transform: scale(1.075);
+    fill: rgb(185, 185, 185);
+  }
 }
