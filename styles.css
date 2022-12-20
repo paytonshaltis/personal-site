@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 img#headshot {
@@ -44,4 +44,9 @@ a.social-link svg {
 a.social-link svg:hover {
   transform: scale(1.075);
   fill: rgb(185, 185, 185);
+}
+
+#footer {
+  width: fit-content;
+  background-color: rgba(138, 138, 138, 0.7);
 }
