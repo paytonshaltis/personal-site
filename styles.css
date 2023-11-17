@@ -32,6 +32,16 @@ img#headshot {
   border: 2px solid rgb(129, 129, 129);
 }
 
+a.position-link, a.position-link:visited {
+  color: white;
+  text-decoration-thickness: 1px;
+}
+
+a.position-link:hover {
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+}
+
 a.social-link {
   text-decoration: none;
   display: inline-block;
